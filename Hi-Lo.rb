@@ -4,12 +4,24 @@ i = 0
 loop do 
 	i = i+1
 	b = gets.chomp.to_i
+		if b.is_a? String
+		puts "Only numerical values"
+	end
 	if b == a
 		puts "Good Job! You finished in #{i} attempts!"
 		break
-	elsif b<a 
+	end
+	if b<a 
 		puts "Too Low!"
-	elsif b>a
+	end
+	if b>a
 		puts "Too High!"
 	end
+	if b<0
+		puts "Please input numbers above 0!"
+	end
+	if b>100
+		puts "Please input numbers below 100!"
+	end
+
 end
