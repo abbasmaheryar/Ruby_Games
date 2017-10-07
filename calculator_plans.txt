@@ -1,3 +1,0 @@
-Code for a calculator will go here soon.
-There will be a scientific, and statistics versions to this project.
-For now, still in the planning stage.
